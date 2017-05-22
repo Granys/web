@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+ul li {
+  list-style: none;
+}
+.section01 {
+  background: url(../img/section1.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.section01 .top {
+  position: absolute;
+  width: 30%;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 1s;
+}
+.section01 .top img {
+  width: 100%;
+}
+.section01 .main {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30%;
+  opacity: 1;
+  transition: all 1s;
+}
+.section01 .main img {
+  width: 100%;
+}
+.section01 p {
+  position: absolute;
+  top: 60%;
+  opacity: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ccc;
+  transition: all 1s 1s;
+}
+.section01 .down{
+  position: absolute;
+  height: 500px;
+  width: 70%;
+  left: 15%;
+  bottom: 0;
+  transition: all 1s;
+}
+.section01 .down img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.section02 {
+  background: url(../img/section2.jpg);
+  background-size: cover;
+  position: relative;
+}
+.section02 .erbj {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  bottom: 0;
+}
+.section02 .erbj .left {
+  position: absolute;
+  left: -10%;
+  transition: all 1s;
+}
+.section02 .erbj .right {
+  position: absolute;
+  right: -10%;
+  transition: all 1s;
+}
+.section02 .erbj .center {
+  position: absolute;
+  left: 50%;
+  bottom: -100%;
+  transform: translateX(-50%);
+  transition: all 1s;
+}
+.section02 .top {
+  position: absolute;
+  top: 20%;
+  color: #748a9e;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.section02 .top .one {
+  font-size: 30px;
+  margin-bottom: 40px;
+  transform: scale(0);
+  transition: all 1s;
+}
+.section02 .top .two {
+  font-size: 60px;
+  margin-bottom: 40px;
+  transform: scale(0);
+  transition: all 1s;
+}
+.section02 .top .there {
+  opacity: 0;
+  transition: all 1s 1s;
+}
+.section03 {
+  background: url(../img/section3.jpg);
+  background-size: cover;
+  position: relative;
+}
+.section03 .sabj {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all 1s;
+}
+.section03 .right {
+  position: absolute;
+  transition: all 1s;
+  right: -100%;
+  bottom: 0;
+}
+.section03 .left {
+  position: absolute;
+  left: -30%;
+  color: lightgoldenrodyellow;
+  transition: all 1s;
+}
+.section03 .main {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) scale(0);
+  transition: all 1s;
+}
+.section03 p {
+  position: absolute;
+  top: 20%;
+  left: 45%;
+  transform: translateX(-50%) scale(0);
+  font-size: 40px;
+  color: deepskyblue;
+  transition: all 1s;
+}
+.section04 {
+  background: url(../img/section4.jpg);
+  background-size: cover;
+  position: relative;
+}
+.section04 .sibj1 {
+  position: absolute;
+  bottom: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 1s;
+}
+.section04 .sibj2 {
+  position: absolute;
+  bottom: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 1s 0.5s;
+}
+.section04 .fc {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  transition: all 1s 1.5s;
+  opacity: 0;
+}
+.section04 .main {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transition: all 1s;
+}
+.section04 p {
+  position: absolute;
+  top: 20%;
+  left: 37%;
+  color: #748A9E;
+  font-size: 22px;
+  transform: scale(0);
+  transition: all 1s;
+}
+
